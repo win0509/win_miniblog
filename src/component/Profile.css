@@ -1,0 +1,32 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    border-right: 1px solid #949494;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+.Profile .profile-img{
+    background-image : url('../img/pubao.jpeg');
+    background-size : cover;
+    background-position : center;
+    width: 280px;
+    height: 350px;
+}
+
+
+.Profile .intro p{
+    padding-top: .5rem;
+    font-size: 16px;
+    color: #797979;
+}
+
+.Profile button{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #1ABABA;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+}
